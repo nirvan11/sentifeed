@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -25,6 +25,9 @@ function App() {
     setResult(newResult);
   }
   let name="bdebo"
+  useEffect(()=>{
+fetch("tryingout")
+  },[])
 
   return (
     <Router>
