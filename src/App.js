@@ -16,6 +16,15 @@ function App() {
     let newResult = { ...result };
     setResult(newResult);
   }
+   function handleNewResult(result) {
+    let newResult = { ...result };
+    setResult(newResult);
+  }
+  function handleOLDResult(result) {
+    let newResult = { ...result };
+    setResult(newResult);
+  }
+  let name="bdebo"
 
   return (
     <Router>
@@ -23,8 +32,8 @@ function App() {
         <div className="App">
           <ResultContext.Provider value={{ result, handleResult }}>
             <Navbar />
-            <Route exact path="/" component={SentifeedForm} />
             <Route exact path="/result" component={SentifeedResult} />
+            <Route exact path="/" component={SentifeedForm} />
           </ResultContext.Provider>
         </div>
       </Switch>
