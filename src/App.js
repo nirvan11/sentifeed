@@ -31,7 +31,7 @@ function App() {
     let newResult = { ...result };
     setResult(newResult);
   }
-  let name="bdebo"
+  // let name="bdebo"
   useEffect(()=>{
 fetch("tryingout")
   },[])
