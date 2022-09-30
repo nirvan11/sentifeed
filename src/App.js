@@ -11,6 +11,9 @@ function App() {
     sentiment: "",
     feedback: "no feedback entered yet",
   });
+  useEffect(() => {
+    axios.get("TESTING THIS WONT WORK HAHA:)");
+  }, []);
 
   function handleResult(result) {
     let newResult = { ...result };
