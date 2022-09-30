@@ -20,6 +20,7 @@ function App() {
   }, []);
 
   function handleResult(result) {
+    setResult("");
     let newResult = { ...result };
     setResult(newResult);
   }
