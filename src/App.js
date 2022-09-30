@@ -22,7 +22,7 @@ function App() {
       <Switch>
         <div className="App">
           <ResultContext.Provider value={{ result, handleResult }}>
-            <Navbar />
+            {/* <Navbar /> */}
             <Route exact path="/" component={SentifeedForm} />
             <Route exact path="/result" component={SentifeedResult} />
           </ResultContext.Provider>
