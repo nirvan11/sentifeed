@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -11,6 +11,9 @@ function App() {
     sentiment: "",
     feedback: "no feedback entered yet",
   });
+  useEffect(() => {
+    axios.get("TESTING THIS WONT WORK HAHA:)");
+  }, []);
 
   function handleResult(result) {
     let newResult = { ...result };
@@ -31,7 +34,11 @@ function App() {
       <Switch>
         <div className="App">
           <ResultContext.Provider value={{ result, handleResult }}>
+
             <Navbar />
+            {/* <Navbar /> */}
+            <Route exact path="/" component={SentifeedForm} />
+
             <Route exact path="/result" component={SentifeedResult} />
             <Route exact path="/" component={SentifeedForm} />
           </ResultContext.Provider>
