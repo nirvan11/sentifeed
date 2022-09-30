@@ -11,7 +11,6 @@ function App() {
     sentiment: "",
     feedback: "no feedback entered yet",
   });
-  useEffect(() => {}, []);
 
   function handleResult(result) {
     let newResult = { ...result };
