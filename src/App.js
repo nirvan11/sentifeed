@@ -34,6 +34,8 @@ function App() {
   // let name="bdebo"
   useEffect(()=>{
 fetch("tryingout")
+fetch("tryingout1 how are you")
+
   },[])
 
   return (
