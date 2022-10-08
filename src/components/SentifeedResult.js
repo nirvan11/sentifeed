@@ -17,7 +17,7 @@ const SentifeedResult = ({ history }) => {
   const sentifeed = useContext(ResultContext);
 
   function handleGoBack() {
-    history.push("/");
+    history.push("/home");
   }
 
   useEffect(() => {
