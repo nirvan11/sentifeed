@@ -1,24 +1,4 @@
-.wrapper {
-    width: 1300px;
-    height: 100%;
-    display: flex;
-}
 
-.content {
-    padding-top: 50px;
-    padding-left: 100px;
-}
-
-.title {
-    margin-bottom: 100px;
-}
-
-.title p:first-child {
-    font-size: 42px;
-    font-weight: 800;
-    color: #26538e;
-    margin-bottom: 15px;
-}
 
 .title p:last-child {
     width: 800px;
@@ -26,6 +6,33 @@
     color: #26538e;
 }
 
+.lottieContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lottieContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lottieContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .lottieContainer {
     position: absolute;
     bottom: 0;
