@@ -12,10 +12,7 @@ function App() {
     feedback: "no feedback entered yet",
   });
 
-  function handleResult(result) {
-    let newResult = { ...result };
-    setResult(newResult);
-  }
+
 
   return (
     <Router>
