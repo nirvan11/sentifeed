@@ -11,11 +11,13 @@ const SentimentsForm = ({ history }) => {
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
   const sentifeed = useContext(ResultContext);
 
+  //on change feedback
   function handleChangeFeedback(e) {
     setFeedback(e.target.value);
     setIsButtonDisabled(false);
   }
 
+  //clear feedabck on click
   function handleClearFeedback() {
     setFeedback("");
     setIsButtonDisabled(true);
