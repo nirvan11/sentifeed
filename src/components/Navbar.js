@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className={styles.logo}>
         <img src={logo} alt="" />
         <p>
-          SENTI<span>FEED</span>
+          SENTI<span>FEED V2</span>
         </p>
       </div>
     </div>
